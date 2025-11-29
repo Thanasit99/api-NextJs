@@ -31,8 +31,8 @@ encrpt data :http://localhost:3000/rsa/get-encrypt-data
 {
     payload: "string | required | 0 - 2000 characters"
 }
-decrypt data :http://localhost:3000/rsa/get-decrypt-data
 
+decrypt data :http://localhost:3000/rsa/get-decrypt-data
 {
     data1: "string | required",
     data2: "string | required"
